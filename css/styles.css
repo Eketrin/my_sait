@@ -1,0 +1,58 @@
+p {
+    color: darkred;
+/*выравнивание текста*/
+    text-align: right; /*вправо*/
+    text-align: center; /*центр*/
+    text-align: justify;/*по ширине, работает только с указанием ширины*/
+    width: 300px;/*с  justify*/
+    text-indent: 100px; /*отступ у красной строки*/
+/*шрифт*/
+    font-weight: normal; /*отмена стиля*/
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: "Comic Sans MS"; /*шрифт*/
+/*межстрочный интервал*/
+    line-height: 50px;/*но вживую 50 - размер шрифта*/
+    line-height: 1.5;/*шрифт*1,5, вживую работает также как вверху*/
+}
+p {
+/*сокращения*/
+    /*синтаксис*/
+    /*курсив жирность размер_шрифта / межстрочный_интервал семейство*/
+    font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+	line-height: 50px;
+	font-style: italic;
+    /*объеденим*/
+    font: bold italic 16px/50px Arial ;
+}
+/*Эффекты текста в CSS*/
+p{
+    text-decoration: underline;/*подчеркнуть____*/
+    text-decoration: overline;/*надчеркнуть*/
+    text-decoration: line-through;/*зачеркнуть*/
+    text-decoration: none;/*отмена эффектов*/
+}
+h2 {
+    color: darkolivegreen;
+}
+h3{ /*заданиe цвета через rgb*/
+    color: rgb(255, 236, 114);
+}
+h5{/*заданиt цвета через # */
+    color: #ff0000;
+}
+
+/*для таблицы*/
+th {/*заголовки*/
+	text-align: left;
+}
+td { /*ячейки*/
+	width: 200px;
+	height: 100px;
+}
+table {/*сама таблица*/
+	width: 400px;
+}
