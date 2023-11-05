@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+    color: red;
+}
+/*можно объединить*/
+h1, h2, h3{
+    text-align: center;
+}
+h3{
+    color: red;
+}
+
+/*списки*/
+ul li {
+	color: yellowgreen;
+}
+ol li {
+	color: green;
+}
+ul li i {
+	color: rgb(47, 0, 255);
+}
