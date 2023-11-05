@@ -17,3 +17,7 @@ p{
     font-family: Arial;
 
 }
+ul{
+    text-align: justify;
+    width: 500px;
+}
